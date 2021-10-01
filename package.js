@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'cultofcoders:redis-oplog',
+    name: 'equium:redis-oplog',
     version: '2.0.5',
     // Brief, one-line summary of the package.
     summary: "Replacement for Meteor's MongoDB oplog implementation",
@@ -37,7 +37,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-    api.use('cultofcoders:redis-oplog');
+    api.use('equium:redis-oplog');
 
     // extensions
     api.use('aldeed:collection2@3.0.0');
